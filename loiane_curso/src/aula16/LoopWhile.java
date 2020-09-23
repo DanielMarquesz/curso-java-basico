@@ -6,11 +6,16 @@ public class LoopWhile {
         
         int i = 1;        
         
-        while (i <= 10){
-            
-            System.out.println("O valor de: i eh " + i);
-            i++;           
-            
+//        do { 
+//            
+//            System.out.println("O valor de: i eh " + i);
+//            i++;           
+//            
+//        } while(i <= 10);
+
+        while(i <= 10) {
+            System.out.println("O valor de i eh: " + i);
+            i++;
         }
         
     }
