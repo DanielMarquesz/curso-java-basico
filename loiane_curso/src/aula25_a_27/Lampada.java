@@ -20,7 +20,7 @@ public class Lampada {
     
     public boolean botaoLampada(boolean botao){
         
-        if(botao == true){            
+        if(botao){            
            
             System.out.println("Lampada Ligada");
             return ligada = true;

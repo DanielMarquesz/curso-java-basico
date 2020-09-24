@@ -6,7 +6,7 @@ public class TesteLampada {
         
         Lampada led = new Lampada();
         
-        led.botaoLampada(true);
+        led.botaoLampada(false);
         
     }
 }
