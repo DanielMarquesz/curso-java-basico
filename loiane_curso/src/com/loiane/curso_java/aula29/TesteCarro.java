@@ -27,6 +27,10 @@ public class TesteCarro {
         
         car1.mostraInfo();
         
+        com.loiane.curso_java.aula31.Carro jooj = new com.loiane.curso_java.aula31.Carro("Jooj", "Joojinho", 0);
+        //System.out.println(jooj.marca);
+        jooj.felicitaCliente();
+        
         
     }
 }
